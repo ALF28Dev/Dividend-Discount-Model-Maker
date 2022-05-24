@@ -21,3 +21,8 @@ openpyxl==3.0.10
 ```Python3
 pip3 install -r requirements.txt
 ```
+
+![Screenshot 2022-05-24 at 16 40 02](https://user-images.githubusercontent.com/87500491/170076387-f8d4cd53-d7e2-4132-9e06-a43aed5802fc.png)
+
+
+The application takes 4 parameters which enable it to find and build the model. The company ticker symbol, current price and company float are all standard information. However the company name is more specific. Im currently using webscraping to gather the data related to specific companies from a site called https://www.macrotrends.net. This site provides the fundamentals for a specific company. The input for the company name is the URL parameter for thyat specific company. For example coca cola becomes cocacola etc.

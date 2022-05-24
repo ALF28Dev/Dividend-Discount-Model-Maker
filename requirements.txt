@@ -1,0 +1,6 @@
+yfinance==0.1.63
+requests==2.23.0
+beautifulsoup4==4.9.1
+Eel==0.14.0
+pandas==1.2.4
+openpyxl==3.0.10

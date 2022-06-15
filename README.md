@@ -26,3 +26,14 @@ pip3 install -r requirements.txt
 
 
 The application takes 4 parameters which enable it to find and build the model. The company ticker symbol, current price and company float are all standard information. However the company name is more specific. Im currently using webscraping to gather the data related to specific companies from a site called https://www.macrotrends.net. This site provides the fundamentals for a specific company. The input for the company name is the URL parameter for thyat specific company. For example coca cola becomes cocacola etc.
+
+
+## Example Valuation
+
+Below is an example valuation of Taiwan Semiconductor Manufacturing (TSM). We can see that the historical intrinsic value has usually been above its current share price. This could explain why the stock rose until 2021 (share price is under the company's intrinsic value, so investors buy the shares expecting the stock to rise). In 2021 the valuation became too high, and it was above its 'intrinsic value', which then caused the price to fall back in 2022.
+
+<img width="1177" alt="Screenshot 2022-06-15 at 20 56 17" src="https://user-images.githubusercontent.com/87500491/173915736-b9923cc7-ba28-416b-9b44-4faef76bc9d3.png">
+
+
+
+
